@@ -1,0 +1,33 @@
+Mean Value of all Sentiments towards this topic
+0.7377049180327869
+
+Aggregate Number of Sentiments on that topic
+61
+
+Positive and Negative count towards that topic
+(53, 8)
+
+Positive Opinions of that topic
+{'free': 20, 'soft': 9, 'complimentary': 7, 'good': 2, 'friendly': 1, 'easy': 1, 'ready': 1, 'hot': 1, 'fine': 1, 'terrific': 1, 'great': 1, 'convenient': 1, 'willing': 1, 'pleasant': 1, 'fancy': 1, 'complementary': 1, 'comfortable': 1, 'cheaper': 1, 'helpful': 1}
+
+Negative Opinions of that topic
+{'little': 2, 'hard': 1, 'bother': 1, 'delayed': 1, 'uncomfortable': 1, 'bad': 1, 'nonsense': 1}
+
+Aspects from that topic
+['meal', 'food', 'drink', 'snack']
+
+Mean Value of Sentiments towards each Aspect in one topic
+{'meal': 1.0, 'food': 0.2, 'drink': 0.875, 'snack': 0.6521739130434783}
+
+Count of each Aspect in one topic
+{'meal': 1, 'food': 5, 'drink': 32, 'snack': 23}
+
+Positive and Negative Count of Aspects
+{'meal': (1, 0), 'food': (3, 2), 'drink': (30, 2), 'snack': (19, 4)}
+
+Positive Opinions of each Aspect in one topic
+{'meal': {'fancy': 1}, 'food': {'easy': 1, 'hot': 1, 'free': 1}, 'drink': {'free': 14, 'soft': 9, 'ready': 1, 'good': 1, 'complimentary': 1, 'convenient': 1, 'willing': 1, 'cheaper': 1, 'helpful': 1}, 'snack': {'complimentary': 6, 'free': 5, 'friendly': 1, 'fine': 1, 'terrific': 1, 'great': 1, 'pleasant': 1, 'good': 1, 'complementary': 1, 'comfortable': 1}}
+
+Negative Opnions of each Aspect in one topic
+{'meal': {}, 'food': {'little': 1, 'bad': 1}, 'drink': {'hard': 1, 'delayed': 1}, 'snack': {'bother': 1, 'uncomfortable': 1, 'little': 1, 'nonsense': 1}}
+

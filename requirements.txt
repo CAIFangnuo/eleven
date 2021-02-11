@@ -1,2 +1,12 @@
 numpy==1.20.1
 pandas==1.2.1
+nltk==3.5
+gensim==3.8.3
+argparse==1.4.0
+selenium==3.141.0
+beautifulsoup4==4.9.3
+requests==2.25.1
+lxml==4.6.2
+nltk==3.5
+gensim==3.8.3
+spacy==3.0.1
