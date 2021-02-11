@@ -83,8 +83,11 @@ Saves the processed file in the directory labelled 'data_processed'
 ## One full runthrough could look as follows:
 
 ``` python -m scraping.scrapy_test.scrapy_test.skytrax --no_reviews 1000 (saves output in 'data') ```
+
 ``` python -m nlp_pipeline.nlp_pipeline --path /Users/mathieukremeth/Desktop/eleven/data/skytrax-1k.csv (saves output in 'data_processed') ```
-``` python -m aggregate_aspects.aggregate_aspects --topic food --path /Users/mathieukremeth/Desktop/eleven/data_processed/nlp_pipeline_skytrax-1k.csv ``` (saves output in 'results')
+
+``` python -m aggregate_aspects.aggregate_aspects --topic food --path /Users/mathieukremeth/Desktop/eleven/data_processed/nlp_pipeline_skytrax-1k.csv ``` 
+(saves output in 'results')
 
 Note, that a file has been added to 'data', 'data_processed' and 'results' to show an example of the working
 
