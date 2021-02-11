@@ -33,6 +33,8 @@ The data can be sourced either from the skytrax website, through the skytrax.py 
 
 ## Always start from the highest directory
 
+# Scraping
+
 ``` --no_reviews ``` = number of reviews that you want to scrape from skytrax
 
 ### Example (one review)
@@ -54,7 +56,7 @@ Saves the data in the directory labelled 'data'
 This will save the output in the directory labelled 'data'
 
 
-
+# Sentiment Analysis
 
 ### Example (takes a file from the directory labelled 'data')
 
@@ -63,6 +65,8 @@ This will save the output in the directory labelled 'data'
 
 Saves the processed file in the directory labelled 'data_processed'
 
+
+# Topic Modelling
 
 
 ``` --path ``` = path to dataset in data_processed
@@ -73,8 +77,7 @@ Saves the processed file in the directory labelled 'data_processed'
 ``` python -m aggregate_aspects.aggregate_aspects --topic food --path /Users/mathieukremeth/Desktop/eleven/data_processed/nlp_pipeline_Allegiant.csv ```
 
 ### Example (print the 10 most frequent items appearing in the sentiment analysis)
-``` python -m aggregate_aspects.aggregate_aspects --most_freq 10 
-
+``` python -m aggregate_aspects.aggregate_aspects --most_freq 10 ```
 
 
 ## One full runthrough could look as follows:
