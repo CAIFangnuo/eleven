@@ -19,7 +19,7 @@ def find_most_frequent_words(df, number):
     d = dict(Counter([item for sublist in df1['topic_sentiment'].apply(
         lambda x:list(x.keys())).tolist() for item in sublist]))
     return {k: v for k, v in sorted(d.items(), key=lambda item: item[1],
-                                    reverse=True)[:20]}
+                                    reverse=True)[:number]}
 
 
 # find all aspects of one topic
